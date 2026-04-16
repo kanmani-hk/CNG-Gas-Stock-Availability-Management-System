@@ -1,0 +1,4 @@
+Connecting to mongodb://localhost:27017/bunkadmindb...
+Collections: bunkadmins, stations
+Station count in 'stations': 5
+Sample IDs: 69afb6ecdfe4184bba71100a, 69afe499a318091e2c6915cd, 69b247ee61e88cf3656fcc43, 69b2704b8ca9c9aa439ec2e9, 69b2770a8ca9c9aa439ec327

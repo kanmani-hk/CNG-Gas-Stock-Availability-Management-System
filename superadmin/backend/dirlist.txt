@@ -1,0 +1,16 @@
+config
+middleware
+models
+node_modules
+routes
+.env
+dirlist.txt
+node_error.txt
+npmprefix.txt
+npm_force_log.txt
+npm_log.txt
+package-lock.json
+package.json
+pathcheck.txt
+seed.js
+server.js

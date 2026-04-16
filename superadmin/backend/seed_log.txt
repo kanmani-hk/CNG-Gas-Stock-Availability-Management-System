@@ -1,0 +1,6 @@
+G£ô Connected to SuperAdmin DB
+
+G£à Super admin created successfully!
+   Email:    superadmin@cng.com
+   Password: SuperAdmin@2026
+

@@ -1,0 +1,84 @@
+node.exe : node:inte
+rnal/modules/package
+_json_reader:301
+At line:1 char:8
++ $out = & node 
+server.js 2>&1 | 
+Out-String; 
+Set-Content -Path 
+"D:\fina ...
++        ~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo  
+            : NotS  
+  pecified: (node   
+ :internal/m...j    
+son_reader:301:    
+String) [], Rem    
+oteException
+    + FullyQualifie 
+   dErrorId : Nati  
+  veCommandError
+ 
+  throw new ERR_MODU
+LE_NOT_FOUND(package
+Name, fileURLToPath(
+base), null);
+        ^
+
+Error [ERR_MODULE_NO
+T_FOUND]: Cannot 
+find package 
+'express' imported 
+from D:\final\supera
+dmin\backend\server.
+js
+    at Object.getPac
+kageJSONURL (node:in
+ternal/modules/packa
+ge_json_reader:301:9
+)
+    at 
+packageResolve (node
+:internal/modules/es
+m/resolve:764:81)
+    at 
+moduleResolve (node:
+internal/modules/esm
+/resolve:855:18)
+    at 
+defaultResolve (node
+:internal/modules/es
+m/resolve:988:11)
+    at #cachedDefaul
+tResolve (node:inter
+nal/modules/esm/load
+er:697:20)
+    at #resolveAndMa
+ybeBlockOnLoaderThre
+ad (node:internal/mo
+dules/esm/loader:714
+:38)
+    at ModuleLoader.
+resolveSync (node:in
+ternal/modules/esm/l
+oader:743:52)
+    at #resolve (nod
+e:internal/modules/e
+sm/loader:679:17)
+    at ModuleLoader.
+getOrCreateModuleJob
+ (node:internal/modu
+les/esm/loader:599:3
+5)
+    at 
+ModuleJob.syncLink (
+node:internal/module
+s/esm/module_job:160
+:33) {
+  code: 'ERR_MODULE_
+NOT_FOUND'
+}
+
+Node.js v25.7.0
+

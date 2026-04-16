@@ -1,0 +1,64 @@
+﻿node : node:events:486
+At line:1 char:1
++ node server.js 2>&1 | 
+Out-File -FilePath 
+startup-log.txt -Encoding 
+ut ...
++ ~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo        
+      : NotSpecified: (n  
+  ode:events:486:String   
+ ) [], RemoteException
+    + FullyQualifiedError 
+   Id : NativeCommandErr  
+  or
+ 
+      throw er; // 
+Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: 
+address already in use 
+:::5000
+    at 
+Server.setupListenHandle 
+[as _listen2] 
+(node:net:2008:16)
+    at listenInCluster 
+(node:net:2065:12)
+    at Server.listen 
+(node:net:2170:7)
+    at app.listen (D:\fina
+lll\backup-final\backup-fi
+nal\final\cnguserpage\back
+end\node_modules\express\l
+ib\application.js:635:24)
+    at file:///D:/finalll/
+backup-final/backup-final/
+final/cnguserpage/backend/
+server.js:54:5
+    at ModuleJob.run (node
+:internal/modules/esm/modu
+le_job:430:25)
+    at async node:internal
+/modules/esm/loader:639:26
+    at async asyncRunEntry
+PointWithESMLoader (node:i
+nternal/modules/run_main:1
+01:5)
+Emitted 'error' event on 
+Server instance at:
+    at emitErrorNT 
+(node:net:2044:8)
+    at process.processTick
+sAndRejections (node:inter
+nal/process/task_queues:90
+:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v25.7.0

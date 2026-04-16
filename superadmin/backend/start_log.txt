@@ -1,0 +1,10 @@
+
+> superadmin-backend@1.0.0 start
+> node server.js
+
+
+G£ô SuperAdmin Server running on http://localhost:5002
+G£ô API Base: http://localhost:5002/api
+G£ô CORS Origins: http://localhost:5175, http://localhost:5176
+
+G£ô SuperAdmin DB connected

@@ -1,0 +1,6 @@
+✓ Connected to SuperAdmin DB
+
+✅ Super admin created / password reset successfully!
+   Email:    superadmin@cng.com
+   Password: SuperAdmin@2026
+

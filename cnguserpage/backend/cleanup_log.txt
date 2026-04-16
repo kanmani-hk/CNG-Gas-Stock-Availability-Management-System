@@ -1,0 +1,7 @@
+Connecting to: mongodb://localhost:27017/cnguserdb
+ℹ Collection not found, skipping: users
+ℹ Collection not found, skipping: stations
+ℹ Collection not found, skipping: feedbacks
+ℹ Collection not found, skipping: user_vehicles
+ℹ Collection not found, skipping: user_settings
+--- Cleanup Complete! ---
